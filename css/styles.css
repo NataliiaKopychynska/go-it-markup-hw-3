@@ -41,7 +41,8 @@ img {
   /* margin-left: 156px;
   margin-right: 156px; */
   align-content: center;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page-div {
@@ -55,13 +56,14 @@ main {
 }
 /* header */
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
+
   /* display: inline; */
 }
 
@@ -80,6 +82,7 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -263,10 +266,10 @@ main {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .h-three {
@@ -398,6 +401,7 @@ main {
 }
 
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
