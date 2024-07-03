@@ -62,6 +62,8 @@ main {
   border: 0;
   white-space: nowrap;
   overflow: hidden;
+  lip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 
 /* header */
