@@ -78,6 +78,7 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-accent {
@@ -102,7 +103,7 @@ main {
 
 .navigation-list {
   display: flex;
-  padding-left: 76px;
+  /* padding-left: 76px; */
 
   align-items: flex-start;
   justify-content: flex-start;
