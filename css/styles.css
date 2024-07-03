@@ -52,6 +52,18 @@ img {
 main {
   flex-grow: 1;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -257,17 +269,6 @@ main {
   gap: 8px;
   /* width: 264px; */
   height: 104px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .h-three {
